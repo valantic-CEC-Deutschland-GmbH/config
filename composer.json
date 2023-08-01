@@ -1,8 +1,8 @@
 {
     "name": "valantic-cec/config",
     "type": "library",
-    "description": "Adds glue endpoint to receive spryker translations",
-    "license": "MIT",
+    "description": "Add functionality to receive store specific configurations",
+    "license": "proprietary",
     "require": {
         "php": ">=8.0",
         "spryker/config": ">=3.6.0",
