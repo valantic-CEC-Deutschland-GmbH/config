@@ -1,5 +1,5 @@
 {
-    "name": "valantic-cec/config",
+    "name": "valantic-spryker/config",
     "type": "library",
     "description": "Add functionality to receive store specific configurations",
     "license": "proprietary",
