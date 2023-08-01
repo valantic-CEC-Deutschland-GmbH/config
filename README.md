@@ -1,8 +1,6 @@
 # extends spryker config module
 
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%208.0-8892BF.svg)](https://php.net/)
-[![coverage report](https://gitlab.nxs360.com/packages/php/spryker/config/badges/main/pipeline.svg)](https://gitlab.nxs360.com/packages/php/spryker/config/-/pipelines?page=1&scope=all&ref=main)
-[![coverage report](https://gitlab.nxs360.com/packages/php/spryker/config/badges/main/coverage.svg)](https://packages.gitlab-pages.nxs360.com/php/spryker/config)
 
 # Description
  - Adds functionality to get a store specific config value (in default you can only get values to currentStore/in current store context)
@@ -11,10 +9,7 @@
      - Make use of new Store parameter when getting a value `$this->getByStore(ExampleConstants::EXAMPLE_CONFIG_KEY, storeName: 'DE');`
 
 # Install
-- https://gitlab.nxs360.com/groups/packages/php/spryker/-/packages
-
-# Reference implementation
-- https://gitlab.nxs360.com/team-lr/glue-api
+- `composer require valantic-cec/config`
 
 # HowTos Cli
 
