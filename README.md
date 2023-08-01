@@ -9,7 +9,7 @@
      - Make use of new Store parameter when getting a value `$this->getByStore(ExampleConstants::EXAMPLE_CONFIG_KEY, storeName: 'DE');`
 
 # Install
-- `composer require valantic-cec/config`
+- `composer require valantic-spryker/config`
 
 # HowTos Cli
 
