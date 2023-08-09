@@ -38,3 +38,5 @@ tests/**/_generated/
 tests/_output/*
 !tests/_output/.gitkeep
 tests/app/*
+src/Orm
+src/Generated
