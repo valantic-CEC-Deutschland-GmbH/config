@@ -11,12 +11,12 @@ abstract class AbstractBundleConfig extends SprykerAbstractBundleConfig
 {
     /**
      * @param string $key
-     * @param string|null $default
+     * @param mixed $default
      * @param string|null $storeName
      *
      * @return mixed
      */
-    protected function getByStore(string $key, ?string $default = null, ?string $storeName = null)
+    protected function getByStore(string $key, $default = null, ?string $storeName = null)
     {
         return $this->getConfig()->get($key, $default, $storeName);
     }
